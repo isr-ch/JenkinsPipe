@@ -1,0 +1,8 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Run code') { 
+            steps {
+                bat "C:\Users\israe\PycharmProjects\pythonProject\venv\Scripts\python.exe  Ex1.py"
+            }
+        }
